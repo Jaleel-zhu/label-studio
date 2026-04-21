@@ -3147,6 +3147,60 @@
       "version": 2,
       "deleted": false
     },
+    "fflag_feat_lse_project_dashboards_v3_diagnostics_short": {
+      "key": "fflag_feat_lse_project_dashboards_v3_diagnostics_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "70059202ceed482b8d44a8b09727a7eb",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
+    "fflag_feat_lse_project_dashboards_v3_throughput_short": {
+      "key": "fflag_feat_lse_project_dashboards_v3_throughput_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "bb56a450d8a2482f9090be047e231776",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_optic_1025_zendesk_widget_integration": {
       "key": "fflag_feat_optic_1025_zendesk_widget_integration",
       "on": false,
