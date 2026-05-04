@@ -141,10 +141,11 @@ jobs:
           id: slack_notify_ops_release
           uses: slackapi/slack-github-action@v3.0
           with:
-            channel-id: 'C01RJV08UJK'
-            slack-message: |
-              ❌ Nightly PyPI build failed! <!subteam^${{ vars.SLACK_GR_DEVOPS }}>
+            method: chat.postMessage
+            token: ${{ secrets.SLACK_LSE_BOT_TOKEN }}
+            payload: |
+              channel: "C01RJV08UJK"
+              text: |
+                ❌ Nightly PyPI build failed! <!subteam^${{ vars.SLACK_GR_DEVOPS }}>
 
-              ><https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|[Workflow run]>
-          env:
-            SLACK_BOT_TOKEN: ${{ secrets.SLACK_LSE_BOT_TOKEN }}
+                ><https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|[Workflow run]>
