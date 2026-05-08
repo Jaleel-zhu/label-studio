@@ -244,33 +244,6 @@
       "version": 5,
       "deleted": false
     },
-    "ff_back_dev_4664_remove_storage_file_on_export_delete_29032023_short": {
-      "key": "ff_back_dev_4664_remove_storage_file_on_export_delete_29032023_short",
-      "on": true,
-      "prerequisites": [],
-      "targets": [],
-      "contextTargets": [],
-      "rules": [],
-      "fallthrough": {
-        "variation": 0
-      },
-      "offVariation": 1,
-      "variations": [
-        true,
-        false
-      ],
-      "clientSideAvailability": {
-        "usingMobileKey": false,
-        "usingEnvironmentId": false
-      },
-      "clientSide": false,
-      "salt": "b67cb5a44e0c45259e82cc9404421fcb",
-      "trackEvents": false,
-      "trackEventsFallthrough": false,
-      "debugEventsUntilDate": null,
-      "version": 3,
-      "deleted": false
-    },
     "ff_back_experimental_features": {
       "key": "ff_back_experimental_features",
       "on": false,
