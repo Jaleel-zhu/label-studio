@@ -4551,6 +4551,33 @@
       "version": 3,
       "deleted": false
     },
+    "fflag_fix_utc_845_optimize_reviewer_total_tasks_short": {
+      "key": "fflag_fix_utc_845_optimize_reviewer_total_tasks_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "0c4c5773837f45228b4aa0cb571cba4a",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_front_dia_1150_ddisco_sneak_preview": {
       "key": "fflag_front_dia_1150_ddisco_sneak_preview",
       "on": false,
