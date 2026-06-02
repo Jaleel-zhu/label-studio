@@ -1797,6 +1797,33 @@
       "version": 3,
       "deleted": false
     },
+    "fflag_feat_bros_1336_payment_programs": {
+      "key": "fflag_feat_bros_1336_payment_programs",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "88e8d684e5e44feeb60f28fcf57d069e",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_bros_193_new_cloud_storage_providers_short": {
       "key": "fflag_feat_bros_193_new_cloud_storage_providers_short",
       "on": false,
