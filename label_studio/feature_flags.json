@@ -3336,6 +3336,33 @@
       "version": 2,
       "deleted": false
     },
+    "fflag_feat_utc_554_agreement_v2_in_task_summary_view": {
+      "key": "fflag_feat_utc_554_agreement_v2_in_task_summary_view",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "9af71f085c224ece9a65d9f5c950f93d",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_utc_563_randomize_overlap_cohort": {
       "key": "fflag_feat_utc_563_randomize_overlap_cohort",
       "on": true,
