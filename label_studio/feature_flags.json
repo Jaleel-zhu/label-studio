@@ -3473,7 +3473,7 @@
     },
     "fflag_feat_utc_859_workforce_homepage": {
       "key": "fflag_feat_utc_859_workforce_homepage",
-      "on": false,
+      "on": true,
       "prerequisites": [],
       "targets": [],
       "contextTargets": [],
@@ -3495,7 +3495,7 @@
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
-      "version": 2,
+      "version": 3,
       "deleted": false
     },
     "fflag_feature_all_optic_1541_performance_score_on_latest_review_short": {
