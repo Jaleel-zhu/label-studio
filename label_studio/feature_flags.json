@@ -82,33 +82,6 @@
       "version": 2,
       "deleted": false
     },
-    "feat_utc_554_agreement_v2_in_task_summary_view": {
-      "key": "feat_utc_554_agreement_v2_in_task_summary_view",
-      "on": false,
-      "prerequisites": [],
-      "targets": [],
-      "contextTargets": [],
-      "rules": [],
-      "fallthrough": {
-        "variation": 0
-      },
-      "offVariation": 1,
-      "variations": [
-        true,
-        false
-      ],
-      "clientSideAvailability": {
-        "usingMobileKey": false,
-        "usingEnvironmentId": false
-      },
-      "clientSide": false,
-      "salt": "97426cc56357437591894dd6467f39ae",
-      "trackEvents": false,
-      "trackEventsFallthrough": false,
-      "debugEventsUntilDate": null,
-      "version": 2,
-      "deleted": false
-    },
     "ff_back_2004_async_review_24032022_short": {
       "key": "ff_back_2004_async_review_24032022_short",
       "on": false,
@@ -3525,6 +3498,33 @@
       "version": 3,
       "deleted": false
     },
+    "fflag_feat_utc_886_granular_pause_permissions_for_annotators": {
+      "key": "fflag_feat_utc_886_granular_pause_permissions_for_annotators",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "dfd1934dbf5b4741a021fbe05a2ae276",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feature_all_optic_1541_performance_score_on_latest_review_short": {
       "key": "fflag_feature_all_optic_1541_performance_score_on_latest_review_short",
       "on": false,
@@ -4869,6 +4869,33 @@
       },
       "clientSide": false,
       "salt": "1b9e414da1e74b62a2ce63860fa0d9ec",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 3,
+      "deleted": false
+    },
+    "fflag_fix_utc_895_changed_only_precomputed_agreement_updates_short": {
+      "key": "fflag_fix_utc_895_changed_only_precomputed_agreement_updates_short",
+      "on": true,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "a22ede61530a4a35b3c0d619e0905890",
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
