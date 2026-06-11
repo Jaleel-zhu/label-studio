@@ -322,7 +322,7 @@
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
-      "version": 9,
+      "version": 10,
       "deleted": false
     },
     "ff_front_dev_2186_comments_for_update": {
@@ -3546,6 +3546,33 @@
       },
       "clientSide": false,
       "salt": "dfd1934dbf5b4741a021fbe05a2ae276",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
+    "fflag_feat_utc_903_discord_account_linking_short": {
+      "key": "fflag_feat_utc_903_discord_account_linking_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "840b8a8b073e45c2971f063970477d5f",
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
