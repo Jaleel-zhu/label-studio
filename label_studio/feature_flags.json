@@ -3120,6 +3120,33 @@
       "version": 2,
       "deleted": false
     },
+    "fflag_feat_interfaces_agent_workflow": {
+      "key": "fflag_feat_interfaces_agent_workflow",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "1a39b614250d48e4bda794e129a09b73",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_interfaces_new_drafts": {
       "key": "fflag_feat_interfaces_new_drafts",
       "on": false,
