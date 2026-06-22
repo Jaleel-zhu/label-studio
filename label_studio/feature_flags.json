@@ -2391,6 +2391,33 @@
       "version": 2,
       "deleted": false
     },
+    "fflag_feat_fit_2007_virtualized_json_editor_short": {
+      "key": "fflag_feat_fit_2007_virtualized_json_editor_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "2cf0160e34b7471e8e5158e901a8869f",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_fit_449_datamanager_filter_members_short": {
       "key": "fflag_feat_fit_449_datamanager_filter_members_short",
       "on": true,
@@ -2796,8 +2823,8 @@
       "version": 3,
       "deleted": false
     },
-    "fflag_feat_front_fit_2000_wav_decoder_short": {
-      "key": "fflag_feat_front_fit_2000_wav_decoder_short",
+    "fflag_feat_front_fit_2003_wasm_streaming_decoder": {
+      "key": "fflag_feat_front_fit_2003_wasm_streaming_decoder",
       "on": false,
       "prerequisites": [],
       "targets": [],
@@ -2816,7 +2843,7 @@
         "usingEnvironmentId": false
       },
       "clientSide": false,
-      "salt": "9db7aa1aba0046d7b0d26bacc6acd68a",
+      "salt": "ffc4e867d77f483bb39e5b882ea1318b",
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
