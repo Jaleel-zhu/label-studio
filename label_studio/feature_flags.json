@@ -3768,36 +3768,9 @@
       "version": 2,
       "deleted": false
     },
-    "fflag_feat_utc_935_auto_member_tags_short": {
-      "key": "fflag_feat_utc_935_auto_member_tags_short",
-      "on": false,
-      "prerequisites": [],
-      "targets": [],
-      "contextTargets": [],
-      "rules": [],
-      "fallthrough": {
-        "variation": 0
-      },
-      "offVariation": 1,
-      "variations": [
-        true,
-        false
-      ],
-      "clientSideAvailability": {
-        "usingMobileKey": false,
-        "usingEnvironmentId": false
-      },
-      "clientSide": false,
-      "salt": "25f2ca78cbf140f7a28c696581d77f41",
-      "trackEvents": false,
-      "trackEventsFallthrough": false,
-      "debugEventsUntilDate": null,
-      "version": 2,
-      "deleted": false
-    },
     "fflag_feat_utc_950_annotator_reviewer_firewall_short": {
       "key": "fflag_feat_utc_950_annotator_reviewer_firewall_short",
-      "on": false,
+      "on": true,
       "prerequisites": [],
       "targets": [],
       "contextTargets": [],
@@ -3819,7 +3792,7 @@
       "trackEvents": false,
       "trackEventsFallthrough": false,
       "debugEventsUntilDate": null,
-      "version": 2,
+      "version": 3,
       "deleted": false
     },
     "fflag_feature_all_optic_1541_performance_score_on_latest_review_short": {
