@@ -2850,6 +2850,33 @@
       "version": 2,
       "deleted": false
     },
+    "fflag_feat_front_fit_annotations_vertical_layout_short": {
+      "key": "fflag_feat_front_fit_annotations_vertical_layout_short",
+      "on": false,
+      "prerequisites": [],
+      "targets": [],
+      "contextTargets": [],
+      "rules": [],
+      "fallthrough": {
+        "variation": 0
+      },
+      "offVariation": 1,
+      "variations": [
+        true,
+        false
+      ],
+      "clientSideAvailability": {
+        "usingMobileKey": false,
+        "usingEnvironmentId": false
+      },
+      "clientSide": false,
+      "salt": "6db9544b9bf3474ea159a6e1617eb9c4",
+      "trackEvents": false,
+      "trackEventsFallthrough": false,
+      "debugEventsUntilDate": null,
+      "version": 2,
+      "deleted": false
+    },
     "fflag_feat_front_leap_1173_disable_postpone_skip_short": {
       "key": "fflag_feat_front_leap_1173_disable_postpone_skip_short",
       "on": false,
